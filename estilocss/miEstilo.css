@@ -1,1 +1,15 @@
+body{
+		background:#ddd;
+		color:#333;
+		font-family:Arial;
+		font-size:16px;
+		margin:0;
+	}
+footer{
+	text-align: center;
+	color: #fff;
+	background-color: #333;
+	font-size: 0.7em;
+	padding: 1% 0;
 
+}
