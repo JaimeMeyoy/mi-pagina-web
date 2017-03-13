@@ -14,7 +14,7 @@
 		text-decoration: none;
 	}
 	.contenedor_general{
-		background:#fff;
+		background:#9C9595;
 		margin:0 auto;
 		max-width:1024px;
 		border-left:1px solid #ccc;
@@ -161,14 +161,18 @@ footer{
 }
 .zoom{
 		transition: 1.5s ease;
- 		-moz-transition: 1.5s ease; /* Firefox */
- 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
- 		-o-transition: 1.5s ease; /* Opera */
+ 		-moz-transition: 1.5s ease; 
+ 		-webkit-transition: 1.5s ease; 
+ 		-o-transition: 1.5s ease; 
 	}
 	.zoom:hover{
 		transform : scale(3);
-		-moz-transform  : scale(3); /* Firefox */
-		-webkit-transform : scale(3); /* Chrome - Safari */
-		-o-transform : scale(3); /* Opera */
-		-ms-transform : scale(3); /* IE9 */
+		-moz-transform  : scale(3); 
+		-webkit-transform : scale(3); 
+		-o-transform : scale(3); 
+		-ms-transform : scale(3); 
 	}
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
