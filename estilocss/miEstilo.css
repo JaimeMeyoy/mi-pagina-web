@@ -85,12 +85,6 @@
 
 
 
-.imagen_encabezado img:hover{
-	-ms-transform: rotate(10deg);
-	-webkit-transform:rotate(10deg);
-	transform:rotate(10deg);
-	cursor: pointer;
-}
 
 
 .contenido article{
@@ -165,3 +159,16 @@ footer{
 		display: none;
 	}
 }
+.zoom{
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+	}
+	.zoom:hover{
+		transform : scale(3);
+		-moz-transform  : scale(3); /* Firefox */
+		-webkit-transform : scale(3); /* Chrome - Safari */
+		-o-transform : scale(3); /* Opera */
+		-ms-transform : scale(3); /* IE9 */
+	}
